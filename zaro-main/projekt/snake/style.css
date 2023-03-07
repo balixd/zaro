@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.body{
+    background: url("bg3.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#background{
+    background-image: url("jatekhatter.jpg");
+    width: 90vmin;
+    height: 92vmin;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.snake {
+    background: linear-gradient(rgb(2, 48, 13), rgba(1, 114, 29, 0.603));
+    border: 3px solid white;
+}
+.food{
+   
+    background-image: url("alma5.png");
+    background-size: cover;
+  
+ 
+}
+.head{
+    background: linear-gradient(rgb(0,202,51), rgb(8,70,3));
+    transform: scale(1.02);
+}
+#scorebox{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    font-size: 60px;
+    color: #f22f;
+    font-weight: bold;
+}
