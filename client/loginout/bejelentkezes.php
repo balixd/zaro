@@ -7,7 +7,7 @@
   <input type="username" id="username" name="username" class="form-control" placeholder="Felhasználó név" required autofocus>
   <label for="passw">Jelszó</label>
   <input type="password" name="password" class="form-control" placeholder="Jelszó" required>
-  <input class="btn btn-lg btn-primary btn-block" type="button" onclick="loginuser()" value="Regisztráció">
+  <input class="btn btn-lg btn-primary btn-block" type="button" onclick="loginuser()" value="Bejelentkezés">
 
 </form>
 </div>
@@ -24,7 +24,7 @@
 
   function render(data){
     console.log(data)
-    if(data.msg='ok')
+    if(data.msg=='ok')
     location.href='./index.php'
   }
 </script>

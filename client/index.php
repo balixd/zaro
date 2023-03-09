@@ -1,5 +1,6 @@
 <?php
 session_start();
+print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="hu">
@@ -24,13 +25,19 @@ session_start();
 <body>
   <div class=" w-100 bg-light p-0">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow text-light">
 
       <div class="collapse navbar-collapse" id="navbarNav">
        
             <a class="nav-link" href="index.php?prog=fooldal.php">Föoldal</a>
             <a class="nav-link" href="index.php?prog=./loginout/regisztracio.php">Regisztráció</a>
+
+    
      
+      </div>
+      <div>
+        <?=isset($_SESSION['username'])? $_SESSION['username']: ''?>
+        <?=isset($_SESSION['username'])? ' <a class="nav-link" href="index.php?prog=./loginout/logout.php">Kijelentkezés</a>' :''?>
       </div>
     </nav>
     <div class="container ">

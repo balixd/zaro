@@ -3,7 +3,7 @@
     padding: 0;
 }
 .body{
-    background: url("bg3.jpg");
+    background: url("lilabg2.png");
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no repeat;
@@ -13,12 +13,13 @@
 
 }
 #background{
-    background-image: url("jatekhatter.jpg");
+    background-image: url("kekbg.jpg");
     width: 90vmin;
     height: 92vmin;
     display: grid;
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(18, 1fr);
+    border: 1px solid plum;
 }
 .snake {
     background: linear-gradient(rgb(2, 48, 13), rgba(1, 114, 29, 0.603));
@@ -28,6 +29,7 @@
    
     background-image: url("alma5.png");
     background-size: cover;
+    align-items: center;
   
  
 }
@@ -40,6 +42,7 @@
     top: 80px;
     right: 100px;
     font-size: 60px;
-    color: #f22f;
+    color: rgb(175, 65, 164);
     font-weight: bold;
+    text-shadow: 2px 2px plum;
 }

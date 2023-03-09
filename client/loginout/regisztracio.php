@@ -25,15 +25,15 @@
 
   function vrfusername(obj) {
     console.log(obj.value)
-    verifyuser('../../server/verifyuser.php?username=' + obj.value, rendervryusername);
+    verifyuser('../server/verifyuser.php?username=' + obj.value, rendervryusername);
   }
 
   function rendervryusername(data) {
     console.log("nr", data)
-    /*if (data.nr == 0)
+    if (data.nr == 0)
       user.username = true
     else
-      user.username = false*/
+      user.username = false
   }
 
 
@@ -47,7 +47,7 @@
         method: 'POST',
         body: myFormData
       }
-      postdata('../../server/register.php', configObj, render)
+      postdata('../server/register.php', configObj, render)
     }
   }
 
@@ -56,6 +56,10 @@
     document.querySelector('.msg').innerHTML = data.msg;
     if (data?.id) {
       user.username = false
+      document.querySelector('.msg').innerHTML +=`<button onclick="login()">Jelentkezz be!</button>`
     }
+  }
+  function login(){
+    window.location.href='index.php?prog=loginout/bejelentkezes.php'
   }
 </script>
