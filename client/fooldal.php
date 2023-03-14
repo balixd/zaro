@@ -17,11 +17,11 @@
 </nav>
 
 <!-- Header -->
-<header class="w3-container w3-theme w3-padding" id="myHeader">
+<header class="w3-container" id="myHeader" style="background-color:#270324;">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
     <div class="w3-padding-32">
-      <h1> <span class="bold">B</span>8</h1>
+      <h1> <span class="bold">B</span><span style="color: white">8</span></h1>
     </div>
   </div>
 </header>
@@ -56,16 +56,6 @@
   </div>
 </div>
 </div>
-<!-- Footer -->
-<footer class="w3-container w3-theme-dark w3-padding-16">
-  <h3></h3>
-  <p>Készítette: <a href=>Kovács Bálint</a></p>
-  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme-light w3-padding"></span>    
-    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
-  </footer>
 
 <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
 <script>

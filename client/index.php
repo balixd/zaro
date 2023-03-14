@@ -23,8 +23,8 @@ print_r($_SESSION);
 </head>
 
 <body>
-  <div class=" w-100 bg-light p-0">
-
+  <div id="tarolo" class=" w-100 p-0" style="background-color:#B752F8; ">
+ 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded shadow text-light">
 
       <div class="collapse navbar-collapse" id="navbarNav">
