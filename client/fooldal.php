@@ -59,7 +59,7 @@ h3{
   <div class="w3-card w3-container" style="min-height:460px">
   <h3>2048</h3><br>
   <i class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-  <a href="./2048 2.0/2048/index.html"> <img src="2048as2.png" width="300px" height="300px" alt=""> </a></i>
+  <a href="./2048 2.0/2048/index.html"> <img src="2048f.png" width="300px" height="300px" alt=""> </a></i>
   </div>
 </div>
 </div>

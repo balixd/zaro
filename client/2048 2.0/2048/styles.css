@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #360652;
+  background-color: #7b7480;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: repeat(var(--grid-size), var(--cell-size));
   grid-template-rows: repeat(var(--grid-size), var(--cell-size));
-  background-color: #cf40b8;
+  background-color: #efefef;
   gap: var(--cell-gap);
   border-radius: 1vmin;
   padding: var(--cell-gap);
@@ -25,7 +25,7 @@ body {
 }
 
 .cell {
-  background-color: #761d79;
+  background-color: #7f7280;
   border-radius: 1vmin;
 }
 
@@ -36,13 +36,13 @@ body {
   align-items: center;
   width: var(--cell-size);
   height: var(--cell-size);
-  background-color: red;
+  background-color: rgb(239, 238, 238);
   border-radius: 1vmin;
   top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
   left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
   font-weight: bold;
-  background-color: hsl(5000, 50%, var(--background-lightness));
-  color: hsl(5000, 25%, var(--text-lightness));
+  background-color: hsl(50, 50%, var(--background-lightness));
+  color: hsl(0, 25%, var(--text-lightness));
   animation: show 200ms ease-in-out;
   transition: 100ms ease-in-out;
 }
