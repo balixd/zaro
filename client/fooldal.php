@@ -2,8 +2,12 @@
   span.bold {
   font-size: 60px;
   font-weight: 700; 
-  color: red;
+  color: purple;
 }
+h3{
+  font-weight: bold;
+}
+
 </style>
 
 
@@ -13,15 +17,15 @@
   <button class="w3-bar-item w3-button" onclick="w3_close()">Bezár <i class="fa fa-remove"></i></button>
   <a href="./index.php?prog=loginout/bejelentkezes.php" class="w3-bar-item w3-button">Bejelentkezés</a>
   <a href="./index.php?prog=loginout/regisztracio.php" class="w3-bar-item w3-button">Regisztráció</a>
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
 
 </nav>
 
 <!-- Header -->
-<header class="w3-container" id="myHeader" style="background-color:#270324;">
-  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-  <div class="w3-center">
+<header class="" id="myHeader" style="background-color:#270324;">
+  <div class="w3-center" style="background-image: url(header2.png); background-size:100% 100%; background-repeat:no-repeat">
     <div class="w3-padding-32">
-      <h1> <span class="bold">B</span><span style="color: white">8</span></h1>
+            <h1> <span class="bold">B</span><span style="color: darkgray">8</span></h1>
     </div>
   </div>
 </header>
@@ -30,29 +34,32 @@
 <div id="id01" class="w3-modal">
 </div>
 
-<div class="w3-row-padding w3-center w3-margin-top">
-<div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+<div class="w3-row w3-center w3-margin-top" style="background-image: url(ss4.png);" >
+<div class="w3-third" >
+  <div class="w3-card w3-container"  style="min-height:460px" >
   <h3>Snake</h3><br>
   <i class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-     <a href="./snake/snake.html"> <img src="snakeicon.jpg" width="300px"  ></a>
+     <a href="./snake/snake.html"> <img src="kigyos.png" width="300px" height="300px" ></a>
+
     </i>
 
   </div>
 </div>
 
-<div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+<div class="w3-third"  >
+  <div class="w3-card w3-container" style="min-height:460px" >
   <h3>Ping Pong</h3><br>
-  <i class="w3-margin-bottom w3-text-theme" style="font-size:120px"><img src="pingpongicon.jpg" width="300px" alt=""></i>
+  <i class="w3-margin-bottom w3-text-theme" style="font-size:120px">
+  <a href="./ping pong/pingpong.html"> <img src="pingpongos2.png" width="300px" height="300px" alt=""> </a></i>
 
   </div>
 </div>
 
-<div class="w3-third">
+<div class="w3-third" >
   <div class="w3-card w3-container" style="min-height:460px">
-  <h3>3jatek</h3><br>
-  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <h3>2048</h3><br>
+  <i class="w3-margin-bottom w3-text-theme" style="font-size:120px">
+  <a href="./2048 2.0/2048/index.html"> <img src="2048as2.png" width="300px" height="300px" alt=""> </a></i>
   </div>
 </div>
 </div>
